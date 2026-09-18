@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_books"
+            android:title="Livros"/>
+
+        <item
+            android:id="@+id/nav_remedios"
+            android:icon="@drawable/ic_remedios"
+            android:title="Remédios"/>
+
+        <item
+            android:id="@+id/nav_maletas"
+            android:icon="@drawable/ic_maletas"
+            android:title="Maletas"/>
+
+        <item
+            android:id="@+id/nav_bikes"
+            android:icon="@drawable/ic_bikes"
+            android:title="Bikes"/>
+
+        <item
+            android:id="@+id/nav_trofeus"
+            android:icon="@drawable/ic_trofeus"
+            android:title="trofeus"/>
+        <item
+            android:id="@+id/nav_relogios"
+            android:icon="@drawable/ic_relogios"
+            android:title="Relógios"/>
+    </group>
+</menu>
